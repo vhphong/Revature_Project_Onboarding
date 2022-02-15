@@ -10,7 +10,7 @@ public class codingchallenge20220214_answer3 {
 
     public static void actualMemorySize(String memSizeParam) {
         if (memSizeParam.length() <= 2) {
-            // error
+            System.out.println("Invalid memory size input");
         } else {
             String unitString = memSizeParam.substring(memSizeParam.length() - 2);
             System.out.println(unitString);
