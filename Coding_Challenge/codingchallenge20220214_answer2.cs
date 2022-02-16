@@ -61,9 +61,6 @@ public class Smoothie
         Console.WriteLine("s1.name " + s1.name);
         Console.WriteLine("s1.Ingredients " + s1.Ingredients);
         Console.WriteLine("s1.GetPrice " + s1.GetPrice());
-
-        // s1.setIngredients = {"Banana"};
-        // Console.WriteLine("s1.Ingredients " + s1.Ingredients);
     }
 }
 // }
