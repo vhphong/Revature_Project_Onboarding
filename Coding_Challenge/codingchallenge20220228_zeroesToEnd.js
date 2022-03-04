@@ -2,12 +2,12 @@ console.log("answer 2");
 
 function zeroesToEnd(numArray) {
     for (let i = 0; i < numArray.length; i++) {
-        for (let i = 0; i < numArray.length - 1; i++) {
-            if ((numArray[i] == 0) && (numArray[i + 1] != 0)) {
-                // swap numArray[i] and numArray[i+1]
-                let temp = numArray[i + 1];
-                numArray[i + 1] = numArray[i];
-                numArray[i] = temp;
+        for (let j = 0; j < numArray.length - 1; j++) {
+            if ((numArray[j] == 0) && (numArray[j + 1] != 0)) {
+                // swap numArray[j] and numArray[j+1]
+                let temp = numArray[j + 1];
+                numArray[j + 1] = numArray[j];
+                numArray[j] = temp;
             }
         }
     }
