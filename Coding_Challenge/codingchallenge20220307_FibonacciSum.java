@@ -20,7 +20,7 @@ public class codingchallenge20220307_FibonacciSum {
             runningFibTerm = init1 + init2;
 
             if (runningFibTerm % 2 == 0) {
-                sum +=runningFibTerm;
+                sum += runningFibTerm;
             }
 
 
@@ -31,5 +31,4 @@ public class codingchallenge20220307_FibonacciSum {
         System.out.println("EvenFibonacciSum is " + sum);
 
     }
-
 }
